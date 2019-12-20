@@ -9,8 +9,8 @@ int main()
 	Man AVec[Areal]; // данный массив
 
 
-	setlocale(LC_ALL, "RU"); // вчключение руссого языка
-	system("color F0"); // смена цвета консоли
+	/*setlocale(LC_ALL, "RU"); // вчключение руссого языка
+	system("color F0"); // смена цвета консоли*/
 
 	ofstream fen(File, ios::app); // создание файла (если его нет) 
 	fen.close();

@@ -5,6 +5,9 @@
 #include <fstream>
 #include <string>
 
+setlocale(LC_ALL, "RU"); // вчключение руссого языка
+system("color F0"); // смена цвета консоли
+
 using namespace std;
 
 const char* File = "Base.bin";
