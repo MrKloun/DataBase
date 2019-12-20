@@ -8,6 +8,7 @@ int main()
 	
 	Man AVec[Areal]; // данный массив
 
+	Rus();
 
 	/*setlocale(LC_ALL, "RU"); // вчключение руссого языка
 	system("color F0"); // смена цвета консоли*/

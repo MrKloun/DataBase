@@ -5,8 +5,11 @@
 #include <fstream>
 #include <string>
 
+void Rus()
+{
 setlocale(LC_ALL, "RU"); // вчключение руссого языка
 system("color F0"); // смена цвета консоли
+}
 
 using namespace std;
 
@@ -18,6 +21,7 @@ const int Areal = 1000; // выделенная память
 
 struct Man
 {
+	Rus();
 	int id; // для каждого человека уникален (единовременно не сущ-т 2х одинаковых ID) и неизменен до уничтожения записи
 	string name; // имя
 	string age; // возраст
@@ -26,6 +30,7 @@ struct Man
 
 void Lin() // красивая прямая линия
 {
+	Rus();
 	int i;
 	for (i = 0; i < 80; i++)
 		cout << "_";
@@ -34,6 +39,7 @@ void Lin() // красивая прямая линия
 
 int str(string str) // перевод из string в int (может работать некорректно, если в string не только цифры)
 {
+	Rus();
 	int res = 0;
 	for (char i : str) 
 	{
@@ -45,6 +51,7 @@ int str(string str) // перевод из string в int (может работать некорректно, если
 
 void PrInf(Man man)
 {
+	Rus();
 	int L(0), l(Areal - 1), i, K(man.id), k(0);
 	int C = str(man.age);
 
