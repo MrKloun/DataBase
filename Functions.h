@@ -68,9 +68,9 @@ void PrInf(Man man)
 		for (i = 0; i < (L - k); i++)
 			cout << "0";
 		cout << man.id << ")\t" << man.name;
-		if (man.pol == "m")
+		if ((man.pol == "m") or (man.pol == "M"))
 			cout << "\tÌóæ\t   ";
-		else if (man.pol == "w")
+		else if ((man.pol == "w") or(man.pol == "W"))
 			cout << "\tÆåí\t   ";
 		else
 			cout << "\tÍåèçâåñòåí ";
